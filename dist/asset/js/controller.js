@@ -1,0 +1,27 @@
+app.controller('FirstController',function($scope){
+    $scope.message="home"
+});
+app.controller('SecondController',function($scope){
+    $scope.message="about"
+});
+app.controller('ThirdController',function($scope){
+    $scope.message="contact"
+});
+app.controller('gk',function($scope){
+    $scope.message="gk"
+});
+app.controller('maths',function($scope){
+    $scope.message="maths"
+});
+app.controller('english',function($scope){
+    $scope.message="english"
+});
+app.controller('current',function($scope){
+    $scope.message="current"
+});
+app.controller('previous',function($scope){
+    $scope.message="previous"
+});
+app.controller('gk1',function($scope){
+    $scope.message="gk1"
+});
