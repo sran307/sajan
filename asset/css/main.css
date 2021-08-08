@@ -13,7 +13,7 @@ p{
     color: rgb(90,130,180);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
-    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 .border-button,.email{
     width: 50%;
@@ -42,7 +42,7 @@ p{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin: 50px 20px;
+    margin: 60vh 20px;
     box-shadow: 5px 5px 5px rgb(26, 24, 240,.5);
 }
 /*--------------------------------------------------------------
@@ -262,6 +262,15 @@ p{
     font-weight: 800;
     color: rgb(255,255,255);
 }
+#heading1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(255,255,255);
+    margin-top: 20%;
+}
 .content-loader{
     width: 100%;
     height: 100%;
@@ -288,7 +297,7 @@ p{
         font-size: 10px;
     }
     #hero{
-        height:calc(100vh - 300px);
+        height:calc(100vh - 200px);
     }
 }
 @media(min-width:376px) and (max-width:420px){
@@ -447,4 +456,58 @@ p{
 #footer .credits a {
     color: #9eccf4;
 }
-  
+/*-------------------------------------------------------------------
+------------additional page styles-----------------------------------
+---------------------------------------------------------------------*/
+.gk-container{
+    background-color: rgb(180, 180, 180);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgb(109, 102, 102);
+    margin-top: 50px;
+}
+.gk-container h1{
+    color: rgb(255,255,255);
+    padding: 30px 0px;
+    text-shadow: 5px 5px 3px rgba(13, 30, 45, .6);
+}
+.gk-parts{
+    background-color: rgb(200,200,200);
+    width: 100%;
+    padding: 20px;
+    margin-bottom:35px;
+    box-shadow: 5px 5px 5px rgb(7, 16, 24);
+}
+.gk-parts ul{
+    list-style-type: none;
+    
+}
+.gk-parts ul li{
+    margin-top: 10px;
+    text-align: center;
+}
+.gk-parts ul li a{
+    text-transform: capitalize;
+    font-weight: 800;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    text-shadow: 3px 3px 4px rgba(13, 30, 45, .6);
+    transition: all 300ms linear;
+}
+.gk-parts ul li a:hover{
+    text-decoration: none;
+    background-color: rgba(31, 53, 72, 0.7);
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.gk-parts ul li a i{
+    padding-left: 3px;
+}
+@media(max-width:400px){
+    .gk-parts{
+        width: 100%;
+    }
+    .gk-parts ul li{
+        margin-left: -60px;
+    }
+}
