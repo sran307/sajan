@@ -1,5 +1,8 @@
-// Mobile Navigation
-if ($('.nav-menu').length) {
+$(document).ready(function(){
+  //calling aos
+  aos_init();
+  // Mobile Navigation
+  if ($('.nav-menu').length) {
     var $mobile_nav = $('.nav-menu').clone().prop({
       class: 'mobile-nav d-lg-none'
     });
@@ -12,9 +15,6 @@ if ($('.nav-menu').length) {
       $('.mobile-nav-toggle i').toggleClass('fa fa-bars fa fa-close');
       $('.mobile-nav-overly').toggle();
     });
-
-    
-
     $(document).click(function(e) {
       var container = $(".mobile-nav, .mobile-nav-toggle");
       if (!container.is(e.target) && container.has(e.target).length === 0) {
@@ -25,6 +25,16 @@ if ($('.nav-menu').length) {
         }
       }
     });
-} else if ($(".mobile-nav, .mobile-nav-toggle").length) {
+  } else if ($(".mobile-nav, .mobile-nav-toggle").length) {
     $(".mobile-nav, .mobile-nav-toggle").hide();
-}
+  }
+
+  //data aos 
+  function aos_init(){
+    AOS.init({
+      duration:500,
+      easing:"ease-in",
+      once:false
+    })
+  }
+})
