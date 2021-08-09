@@ -537,3 +537,9 @@ p{
 #paginator{
     margin-top: 20px;
 }
+#paginator ul li{
+    box-shadow: 5px 5px 5px rgb(109, 102, 102);
+}
+#paginator ul li a{
+    text-shadow: 5px 5px 2px rgba(13, 30, 45);
+}
