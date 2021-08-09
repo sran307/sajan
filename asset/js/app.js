@@ -30,5 +30,14 @@ app.config(function($routeProvider){
     }).when("/next-gk1",{
         templateUrl:"template/gk1.html",
         controller:"gk1"
+    }).when("/kerala_facts",{
+        templateUrl:"template/kerala_facts.html",
+        controller:"kerala_facts"
+    }).when("/kerala_facts1",{
+        templateUrl:"template/kerala_facts1.html",
+        controller:"kerala_facts1"
+    }).when("/kerala_facts2",{
+        templateUrl:"template/kerala_facts2.html",
+        controller:"kerala_facts1"
     })
 })

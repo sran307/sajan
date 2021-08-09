@@ -25,3 +25,12 @@ app.controller('previous',function($scope){
 app.controller('gk1',function($scope){
     $scope.message="gk1"
 });
+app.controller('kerala_facts',function($scope){
+    $scope.message="kerala facts"
+});
+app.controller('kerala_facts1',function($scope){
+    $scope.message="kerala facts"
+});
+app.controller('kerala_facts2',function($scope){
+    $scope.message="kerala facts"
+});
