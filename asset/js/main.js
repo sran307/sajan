@@ -20,8 +20,8 @@ $(document).ready(function(){
       if (!container.is(e.target) && container.has(e.target).length === 0) {
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
-          $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
-          $('.mobile-nav-overly').fadeOut();
+          $('.mobile-nav-toggle i').toggleClass('fa fa-bars fa fa-close');
+          $('.mobile-nav-overly').toggle();
         }
       }
     });
