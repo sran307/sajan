@@ -35,18 +35,18 @@ app.config(function($routeProvider){
         controller:"kerala_facts"
     }).when("/kerala_facts1",{
         templateUrl:"template/kerala-facts/kerala_facts1.html",
-        controller:"kerala_facts1"
+        controller:"kerala_facts"
     }).when("/kerala_facts2",{
         templateUrl:"template/kerala-facts/kerala_facts2.html",
-        controller:"kerala_facts1"
+        controller:"kerala_facts"
     }).when("/kerala_facts3",{
         templateUrl:"template/kerala-facts/kerala_facts3.html",
-        controller:"kerala_facts1"
+        controller:"kerala_facts"
     }).when("/kerala_facts4",{
         templateUrl:"template/kerala-facts/kerala_facts4.html",
-        controller:"kerala_facts1"
+        controller:"kerala_facts"
     }).when("/kerala_facts5",{
         templateUrl:"template/kerala-facts/kerala_facts5.html",
-        controller:"kerala_facts1"
+        controller:"kerala_facts"
     })
 })
