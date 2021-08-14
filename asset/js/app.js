@@ -31,22 +31,22 @@ app.config(function($routeProvider){
         templateUrl:"template/gk1.html",
         controller:"gk1"
     }).when("/kerala_facts",{
-        templateUrl:"template/kerala_facts.html",
+        templateUrl:"template/kerala-facts/kerala_facts.html",
         controller:"kerala_facts"
     }).when("/kerala_facts1",{
-        templateUrl:"template/kerala_facts1.html",
+        templateUrl:"template/kerala-facts/kerala_facts1.html",
         controller:"kerala_facts1"
     }).when("/kerala_facts2",{
-        templateUrl:"template/kerala_facts2.html",
+        templateUrl:"template/kerala-facts/kerala_facts2.html",
         controller:"kerala_facts1"
     }).when("/kerala_facts3",{
-        templateUrl:"template/kerala_facts3.html",
+        templateUrl:"template/kerala-facts/kerala_facts3.html",
         controller:"kerala_facts1"
     }).when("/kerala_facts4",{
-        templateUrl:"template/kerala_facts4.html",
+        templateUrl:"template/kerala-facts/kerala_facts4.html",
         controller:"kerala_facts1"
     }).when("/kerala_facts5",{
-        templateUrl:"template/kerala_facts5.html",
+        templateUrl:"template/kerala-facts/kerala_facts5.html",
         controller:"kerala_facts1"
     })
 })

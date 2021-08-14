@@ -17,7 +17,7 @@ app.controller('english',function($scope){
     $scope.message="english"
 });
 app.controller('current',function($scope){
-    $scope.message="current"
+    $scope.message="Current Affairs"
 });
 app.controller('previous',function($scope){
     $scope.message="previous"
