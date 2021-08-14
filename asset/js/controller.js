@@ -34,3 +34,12 @@ app.controller('kerala_facts1',function($scope){
 app.controller('kerala_facts2',function($scope){
     $scope.message="kerala facts"
 });
+app.controller('kerala_facts3',function($scope){
+    $scope.message="kerala facts"
+});
+app.controller('kerala_facts4',function($scope){
+    $scope.message="kerala facts"
+});
+app.controller('kerala_facts5',function($scope){
+    $scope.message="kerala facts"
+});
