@@ -22,7 +22,7 @@ app.config(function($routeProvider){
         templateUrl:"template/previous.html",
         controller:"previous"
     }).when("/current",{
-        templateUrl:"template/current.html",
+        templateUrl:"template/current/current.html",
         controller:"current"
     }).when("/scert",{
         templateUrl:"template/scert.html",
