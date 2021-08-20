@@ -21,8 +21,12 @@ app.config(function($routeProvider){
     }).when("/previous",{
         templateUrl:"template/previous.html",
         controller:"previous"
-    }).when("/current",{
-        templateUrl:"template/current/current.html",
+    //current affairs page control
+    }).when("/current1",{
+        templateUrl:"template/current/current1.html",
+        controller:"current"
+    }).when("/current2",{
+        templateUrl:"template/current/current2.html",
         controller:"current"
     }).when("/scert",{
         templateUrl:"template/scert.html",
@@ -30,9 +34,7 @@ app.config(function($routeProvider){
     }).when("/next-gk1",{
         templateUrl:"template/gk1.html",
         controller:"gk1"
-    }).when("/kerala_facts",{
-        templateUrl:"template/kerala-facts/kerala_facts.html",
-        controller:"kerala_facts"
+        //kerala facts page control
     }).when("/kerala_facts1",{
         templateUrl:"template/kerala-facts/kerala_facts1.html",
         controller:"kerala_facts"
@@ -47,6 +49,9 @@ app.config(function($routeProvider){
         controller:"kerala_facts"
     }).when("/kerala_facts5",{
         templateUrl:"template/kerala-facts/kerala_facts5.html",
+        controller:"kerala_facts"
+    }).when("/kerala_facts6",{
+        templateUrl:"template/kerala-facts/kerala_facts6.html",
         controller:"kerala_facts"
     })
 })
