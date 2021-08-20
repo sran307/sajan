@@ -225,7 +225,7 @@ p{
     position: relative;
 }
 #hero .image-container{
-    background-image: url("/asset/images/back1.jpeg");
+    background-image: url("/asset/images/back1.jpg");
     background-repeat:no-repeat ;
     background-size: cover;
     background-position: center;
